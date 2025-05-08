@@ -9,7 +9,7 @@ import Apartment4 from '../assets/Apartment/vertical-shot-some-beautiful-buildin
 
 const Banner = () => {
     return (
-     <div className="text-black border-2 border-amber-600 w-full h-[420px] px-2 sm:px-6 overflow-hidden">
+     <div className="text-black w-full h-[420px] px-2 sm:px-6 overflow-hidden">
            <Swiper
            className="!w-full"
       spaceBetween={10}

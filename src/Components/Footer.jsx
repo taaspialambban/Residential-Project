@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
     return (
         <footer className="px-4 w-[400px] md:w-[800px] lg:w-full divide-y dark:bg-gray-100 dark:text-gray-800">
-	<div className="container flex flex-col justify-between space-x-11 border border-emerald-800 py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+	<div className="container flex flex-col justify-between space-x-11 py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 		<div className="lg:w-3xs ">
 			<a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
 				<div className="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-600">
@@ -52,7 +52,7 @@ const Footer = () => {
 			</div>
 			<div className="space-y-3 lg:w-[200px]">
 				<div className="uppercase text-2xl font-semibold dark:text-gray-900">Social media</div>
-				<div className="flex justify-start space-x-3">
+				<div className="flex text-2xl justify-start space-x-3">
 					<a rel="noopener noreferrer" href="#" title="Facebook" className="flex items-center p-1">
 						<FaFacebook></FaFacebook>
 					</a>

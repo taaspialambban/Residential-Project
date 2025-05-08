@@ -80,7 +80,7 @@
       "price": "$380,000",
       "status": "sale",
       "area": "2200 sqft",
-      "location": "Cape Cod, Massachusetts, USA",
+      "location": "Warsaw, Masovian Voivodeship, Poland",
       "facilities": ["Garage", "Playground", "Dining Room", "Kitchen"],
       "image": "https://i.ibb.co.com/ch2t7b6n/way-white-house.jpg"
     },
@@ -92,10 +92,11 @@
       "price": "$2,500/month",
       "status": "rent",
       "area": "1600 sqft",
-      "location": "Madison, Wisconsin, USA",
+      "location": "Hanoi, Vietnam",
       "facilities": ["Lift", "Security", "Balcony", "Modern Kitchen"],
-      "image": "https://i.ibb.co.com/Fkhh6Vz8/colonial-style-house-night-scene.jpg"
-    },
+      "image": " https://i.ibb.co.com/Fkhh6Vz8/colonial-style-house-night-scene.jpg"
+    }, 
+   
     {
       "id": "9",
       "estate_title": "Budget Townhouse",
@@ -104,10 +105,10 @@
       "price": "$280,000",
       "status": "sale",
       "area": "1700 sqft",
-      "location": "Montreal, Quebec, Canada",
+      "location": "Suzhou, Jiangsu, China",
       "facilities": ["Living Room", "Kitchen", "Backyard", "Garage"],
-      "image": "https://i.ibb.co.com/991kQz8Z/road-city.jpg"
+      "image": "https://i.ibb.co.com/991kQz8Z/road-city.jpgg"
     }
-  ]
+  ] 
   
   
