@@ -1,0 +1,113 @@
+
+  [
+    {
+      "id": "1",
+      "estate_title": "Modern Family House",
+      "segment_name": "Single-family home",
+      "description": "A beautiful modern home perfect for families, with a spacious backyard.",
+      "price": "$450,000",
+      "status": "sale",
+      "area": "2500 sqft",
+      "location": "Cape Cod, Massachusetts, USA",
+      "facilities": ["Living Room", "Swimming Pool", "Kitchen", "Garage"],
+      "image": "https://i.ibb.co.com/WWtkhn4k/red-house-sunset.jpg"
+    },
+    {
+      "id": "2",
+      "estate_title": "Urban Apartment",
+      "segment_name": "Apartment",
+      "description": "A stylish apartment located in the heart of the city with all modern amenities.",
+      "price": "$1,200/month",
+      "status": "rent",
+      "area": "1200 sqft",
+      "location": "Madison, Wisconsin, USA",
+      "facilities": ["Living Room", "Balcony", "Kitchen", "Lift"],
+      "image": "https://i.ibb.co.com/7NXYQsZt/beautiful-shot-big-farmhouse-clear-blue-sky.jpg"
+    },
+    {
+      "id": "3",
+      "estate_title": "Cozy Student Housing",
+      "segment_name": "Student Housing",
+      "description": "Affordable and secure housing near top universities.",
+      "price": "$300/month",
+      "status": "rent",
+      "area": "700 sqft",
+      "location": "Montreal, Quebec, Canada",
+      "facilities": ["Study Room", "Common Area", "WiFi", "Kitchen"],
+      "image": "https://i.ibb.co.com/HTN5kM8j/old-roof-architecture-quebec-city.jpg"
+    },
+    {
+      "id": "4",
+      "estate_title": "Luxurious Townhouse",
+      "segment_name": "Townhouse",
+      "description": "Elegant townhouse with rooftop access and modern interiors.",
+      "price": "$750,000",
+      "status": "sale",
+      "area": "3000 sqft",
+      "location": "Savannah, Georgia, USA",
+      "facilities": ["Living Room", "Rooftop", "Dining Area", "Garage"],
+      "image": "https://i.ibb.co.com/chGj3rnM/3d-model-residential-building.jpg"
+    },
+    {
+      "id": "5",
+      "estate_title": "Senior Living Community Home",
+      "segment_name": "Senior Living",
+      "description": "Peaceful environment designed for senior citizens with 24/7 support.",
+      "price": "$2,000/month",
+      "status": "rent",
+      "area": "1500 sqft",
+      "location": "Salem, Massachusetts, USA",
+      "facilities": ["Garden", "Medical Center", "Dining Hall", "Security"],
+      "image": "https://i.ibb.co.com/cSjFTSDX/house-with-blue-roof-blue-roof.jpg"
+    },
+    {
+      "id": "6",
+      "estate_title": "Vacation Rental Villa",
+      "segment_name": "Vacation Rental",
+      "description": "A perfect escape for families with scenic views and full amenities.",
+      "price": "$150/day",
+      "status": "rent",
+      "area": "1800 sqft",
+      "location": "Scottsdale, Arizona, USA",
+      "facilities": ["Swimming Pool", "Beach Access", "Kitchen", "WiFi"],
+      "image": "https://i.ibb.co.com/x8D1vDLm/low-angle-shot-white-church-with-beautiful-flower-garden.jpg"
+    },
+    {
+      "id": "7",
+      "estate_title": "Suburban Family House",
+      "segment_name": "Single-family home",
+      "description": "Located in a quiet neighborhood, ideal for a growing family.",
+      "price": "$380,000",
+      "status": "sale",
+      "area": "2200 sqft",
+      "location": "Cape Cod, Massachusetts, USA",
+      "facilities": ["Garage", "Playground", "Dining Room", "Kitchen"],
+      "image": "https://i.ibb.co.com/ch2t7b6n/way-white-house.jpg"
+    },
+    {
+      "id": "8",
+      "estate_title": "High-Rise Luxury Apartment",
+      "segment_name": "Apartment",
+      "description": "Premium apartment with skyline views and modern design.",
+      "price": "$2,500/month",
+      "status": "rent",
+      "area": "1600 sqft",
+      "location": "Madison, Wisconsin, USA",
+      "facilities": ["Lift", "Security", "Balcony", "Modern Kitchen"],
+      "image": "https://i.ibb.co.com/Fkhh6Vz8/colonial-style-house-night-scene.jpg"
+    },
+    {
+      "id": "9",
+      "estate_title": "Budget Townhouse",
+      "segment_name": "Townhouse",
+      "description": "An affordable townhouse for small families with all basic facilities.",
+      "price": "$280,000",
+      "status": "sale",
+      "area": "1700 sqft",
+      "location": "Montreal, Quebec, Canada",
+      "facilities": ["Living Room", "Kitchen", "Backyard", "Garage"],
+      "image": "https://i.ibb.co.com/991kQz8Z/road-city.jpg"
+    }
+  ]
+  
+  

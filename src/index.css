@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@400;600;700&family=Tagesschrift&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+    --font-Tagesschrift:"Tagesschrift", system-ui;
+    --font-Poppins: "Poppins", sans-serif;
+    --font-Oswald:  "Oswald", sans-serif;
+  }
