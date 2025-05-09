@@ -2,31 +2,50 @@ import { useContext, useState } from "react";
 import { FaRegEye } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const RegisterPages = () => {
 
     const {createLogin} = useContext(AuthContext);
     const [showPassword , setShowPassword] = useState(false);
-    const [createUser, setCreateUser] = useState('')
+    const [createUser, setCreateUser] = useState('');
+    const [success , setSuccess] = useState('')
     
     const handleRegister = e =>{
         e.preventDefault() ;
         const name = e.target.name.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
+        setCreateUser('');
+        setSuccess('');
         console.log(email, password , name);
 
+
         if(password.length <6){
-            setCreateUser('required 6 degit')
+            toast.error('required 6 degit')
+            return
+        }
+
+        if(!/[A-Z]/.test(password)){
+            toast.error('Password must contain at least one uppercase letter.')
+            return
+        }
+
+        if(!/[a-z]/.test(password)){
+            toast.error('Password must contain at least one lowercase letter.')
             return
         }
 
         createLogin (email , password)
         .then(result =>{
             console.log(result.user)
+            setSuccess('Successfully')
+            toast.success('Successfully registered!')
         })
         .catch (error =>{
-            console.log(error)
+            setCreateUser(error.massage);
+            toast.error(error.massage)
         })
 
     }
@@ -58,9 +77,13 @@ const RegisterPages = () => {
               </div>
              </form>
 
-             {
+             {/* {
                 createUser && <p className="text-orange-400 p-5">{createUser}</p>
              }
+             {
+                success && <p className="text-lime-700 p-5">{success}</p>
+             } */}
+             <ToastContainer></ToastContainer>
              <p className="text-black p-5">Already have an account? <Link className="text-red-500" to='/login'>Login</Link> </p>
             </div>
           </div>
