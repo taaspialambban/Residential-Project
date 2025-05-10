@@ -6,6 +6,7 @@ import ResidentialDetails from "../pages/ResidentialDetails";
 import ErrorPages from "../pages/ErrorPages";
 import LoginPage from "../pages/LoginPage";
 import RegisterPages from "../pages/RegisterPages";
+import PrivetRoutes from "./PrivetRoutes";
 
 const routes = createBrowserRouter([
     {
@@ -19,8 +20,8 @@ const routes = createBrowserRouter([
                 loader: () => fetch('residential.json')
             },
             {
-                path:'/residentialPages/:id',
-                element:<ResidentialDetails></ResidentialDetails>,
+                path:'/userProfile/:id',
+                element:<PrivetRoutes><ResidentialDetails></ResidentialDetails></PrivetRoutes> ,
                 loader: async ({params}) => {
                     const res = await fetch('../../public/residential.json');
                     const residential = await res.json();
@@ -30,7 +31,7 @@ const routes = createBrowserRouter([
             },
             {
                 path:'/updateProfile',
-                element:<UpdateProfile></UpdateProfile>
+                element:<PrivetRoutes><UpdateProfile></UpdateProfile></PrivetRoutes>
             },
             {
                 path:'login',

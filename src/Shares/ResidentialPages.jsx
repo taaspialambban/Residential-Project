@@ -5,7 +5,7 @@ const ResidentialPages = ({residency}) => {
     const {image,estate_title,id,segment_name,description,price,status,area,location,facilities} = residency
     return (
         <div className="">
-           <NavLink to={`/residentialPages/${residency.id}`}>
+           <NavLink to={`/userProfile/${residency.id}`}>
            <div
             className="shadow-lg h-[780px] drop-shadow-2xl border border-[#13131326] py-4">
             <img className="h-[250px] mx-auto w-[350px]" src={image} alt="" />
