@@ -48,7 +48,7 @@ const UpdateProfile = () => {
                          <form onSubmit={handleRegister}>
                          <div className="card-body">
                             <fieldset className="fieldset">
-                                <h2 className='text-3xl font-bold text-black text-center'>Register page</h2>
+                                <h2 className='text-3xl font-bold text-black text-center'>Update Profile</h2>
                               <label className="label text-black">Name</label>
                               <input type="text" name="name" required className="input" placeholder="Your Name" />
                               <label className="label text-black">Email</label>

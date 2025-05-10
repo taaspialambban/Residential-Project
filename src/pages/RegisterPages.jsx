@@ -37,11 +37,8 @@ const RegisterPages = () => {
         createLogin (email , password)
         .then(result =>{
             console.log(result.user)
- 
+            toast.success('Successfully registered!')
     })
-        toast.success('Successfully registered!')
-
-
         .catch (error =>{
             toast.error(error.massage)
         })
